@@ -69,6 +69,7 @@ rBtn.addEventListener('click', function(){
     for (i=0; i<length; i++){
         el[i].parentNode.removeChild(el[i]);
     }
+    drawCustomGrid();
     console.log("workd");
 });
 canvas.addEventListener('mouseover', fillBlack);
